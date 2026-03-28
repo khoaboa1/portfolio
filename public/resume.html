@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khoa Le — CV</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 11pt;
+      color: #000;
+      background: #fff;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 48px 52px;
+    }
+
+    /* Header */
+    .header { text-align: center; margin-bottom: 10px; }
+    .header h1 { font-size: 14pt; font-weight: bold; }
+    .header .contact { font-size: 10.5pt; margin-top: 3px; }
+    .header .contact a { color: #000; text-decoration: underline; }
+    .header .address { font-size: 10.5pt; margin-top: 2px; }
+
+    /* Section */
+    .section { margin-top: 10px; }
+    .section-title {
+      font-size: 11pt;
+      font-weight: bold;
+      border-bottom: 1px solid #000;
+      padding-bottom: 1px;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+
+    /* Entry */
+    .entry { margin-bottom: 8px; }
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .entry-header .org { font-weight: bold; font-size: 11pt; }
+    .entry-header .location { font-size: 11pt; }
+    .entry-subheader {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .entry-subheader .role { font-style: italic; font-size: 11pt; }
+    .entry-subheader .period { font-size: 11pt; }
+    .entry-project { font-style: italic; margin-top: 1px; font-size: 11pt; }
+    .entry-project a { color: #000; }
+
+    ul.bullets {
+      margin-top: 3px;
+      margin-left: 20px;
+      list-style-type: disc;
+    }
+    ul.bullets li {
+      font-size: 11pt;
+      margin-bottom: 2px;
+      line-height: 1.4;
+    }
+
+    /* Research interests */
+    .interests ul {
+      margin-left: 20px;
+      list-style-type: disc;
+    }
+    .interests ul li { font-size: 11pt; margin-bottom: 2px; line-height: 1.4; }
+
+    /* Skills */
+    .skills p { font-size: 11pt; margin-bottom: 2px; line-height: 1.4; }
+    .skills span.label { font-weight: bold; }
+
+    /* Awards */
+    .awards ul { margin-left: 20px; list-style-type: disc; }
+    .awards ul li { font-size: 11pt; margin-bottom: 2px; }
+
+    /* Teaching */
+    .teaching p { font-size: 11pt; }
+    .teaching span { font-weight: bold; }
+
+    /* Seminars */
+    .seminars ul { margin-left: 20px; list-style-type: disc; }
+    .seminars ul li { font-size: 11pt; margin-bottom: 4px; line-height: 1.4; }
+
+    /* Certs */
+    .certs ul { margin-left: 20px; list-style-type: disc; }
+    .certs ul li { font-size: 11pt; margin-bottom: 2px; }
+
+    /* References */
+    .ref-entry { margin-bottom: 8px; }
+    .ref-entry .name { font-weight: bold; font-size: 11pt; }
+    .ref-entry p { font-size: 11pt; line-height: 1.4; }
+    .ref-entry a { color: #000; }
+
+    @media print {
+      body { padding: 32px 40px; }
+      @page { margin: 0.5in; size: letter; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Khoa Le</h1>
+    <p class="contact">
+      +1 (813) – 613 – 7175 | <a href="mailto:ldkhoa03@gmail.com">ldkhoa03@gmail.com</a> |
+      <a href="https://www.linkedin.com/in/khoa-le-507900317/">www.linkedin.com/in/khoa-le-507900317</a>
+    </p>
+    <p class="address">Address: 652 Vanderbilt Ln, Kenner, Louisiana, U.S.A</p>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section">
+    <div class="section-title">Education</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="org">Tulane University, New Orleans, Louisiana</span>
+        <span class="location">January 2026 – May 2027 (expected)</span>
+      </div>
+      <div><em>Master of Science in Computer Science</em></div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="org">University of South Florida, Tampa, Florida</span>
+        <span class="location">August 2021 – August 2025</span>
+      </div>
+      <div><em>Bachelor of Engineering in Computer Science</em></div>
+    </div>
+  </div>
+
+  <!-- RESEARCH INTERESTS -->
+  <div class="section interests">
+    <div class="section-title">Research Interests</div>
+    <ul>
+      <li>Database system Design: Modeling, optimization, and security for scalable data management.</li>
+      <li>Theory of Computation: Foundation of computability, complexity, and algorithmic design.</li>
+      <li>Algorithmic Bias in Machine Learning: Mitigating bias to promote fairness and trust in AI systems.</li>
+      <li>Big Data Analysis: Scalable processing, analysis techniques for large datasets while maintaining privacy.</li>
+      <li>UI/UX (Human-Computer Interaction): Designing user-centered interfaces to enhance usability and engagement.</li>
+    </ul>
+  </div>
+
+  <!-- EMPLOYMENT -->
+  <div class="section">
+    <div class="section-title">Employment</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="org">Datahouse Asia</span>
+        <span class="location">Ho Chi Minh City, Vietnam</span>
+      </div>
+      <div class="entry-subheader">
+        <span class="role">Software Engineer Intern</span>
+        <span class="period">May, 2024 – August, 2024</span>
+      </div>
+      <ul class="bullets">
+        <li>Modernized the Philippine's hospital system to improve the management of tenants.</li>
+        <li>Improved user interface with UI/UX design, utilizing HTML/CSS, Typescript, ReactJS and its frameworks.</li>
+        <li>Created using experience based on decentralization of each patient, helping assign patients to the correct department. The system allowed different hospitals to share the patient's medical and treatment history.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- RESEARCH EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Research Experience</div>
+
+    <!-- NEW: Tulane Hydroinformatics -->
+    <div class="entry">
+      <div class="entry-header">
+        <span class="org">Tulane Hydroinformatics Lab, Tulane University, New Orleans, Louisiana</span>
+        <span class="location">New Orleans, Louisiana</span>
+      </div>
+      <div class="entry-subheader">
+        <span class="role">Graduate Research Assistant</span>
+        <span class="period">March, 2026 – Present</span>
+      </div>
+      <div class="entry-project">Project: HyMES — Hydrological Model Evaluation System</div>
+      <ul class="bullets">
+        <li>Contributing to the development of a browser-based platform for hydrological model analysis and evaluation, supporting research at the intersection of hydrology and data-driven modeling.</li>
+        <li>Optimizing system performance and improving application responsiveness through code refactoring and efficient data handling strategies.</li>
+        <li>Designing and implementing UI/UX enhancements to improve usability and user interaction across the platform.</li>
+        <li>Collaborating with the research team to integrate new features aligned with evolving project requirements.</li>
+      </ul>
+    </div>
+
+    <!-- Hanoi University of Industry -->
+    <div class="entry">
+      <div class="entry-header">
+        <span class="org">Hanoi University of Industry, Ha Noi</span>
+        <span class="location">Ha Noi, Viet Nam</span>
+      </div>
+      <div class="entry-subheader">
+        <span class="role">R&D Department</span>
+        <span class="period">September, 2024 – December, 2025</span>
+      </div>
+      <div class="entry-project">Project: Upgrading the dorm management system.</div>
+      <ul class="bullets">
+        <li>Assisted in migrating the company's flagship product from ASP.NET to ReactJS, enhancing user experience and improving code maintainability with Ant Design and Metronic.</li>
+        <li>Designed and implemented an interactive drag-and-drop room layout feature to simplify dorm room assignments.</li>
+        <li>Optimized the product to improve the dorm system in order to manage students, enhancing the managing performance, sign-ups increased by 25%.</li>
+        <li>Collaborated with team members to develop and integrate new features that addressed user needs and improved overall system usability.</li>
+      </ul>
+    </div>
+
+    <!-- USF Huffman -->
+    <div class="entry">
+      <div class="entry-header">
+        <span class="org">University of South Florida, Tampa, Florida</span>
+        <span class="location">2022</span>
+      </div>
+      <div class="entry-project">Project: Huffman Code &nbsp;<a href="https://github.com/khoaboa1/HuffmanCode">https://github.com/khoaboa1/HuffmanCode</a></div>
+      <ul class="bullets">
+        <li>Created a Huffman coding algorithm applying tree and heap data structures to encode paragraphs into binary format which helps reduce memory usage while maintaining data integrity.</li>
+        <li>Developed a program creating frequency maps and converting it into a priority queue then tree. Used traversal order to encode the tree into string.</li>
+        <li>Collaborated with teammates, designed most of the code base and worked as project manager.</li>
+      </ul>
+    </div>
+
+    <!-- Ly Tu Trong -->
+    <div class="entry">
+      <div class="entry-header">
+        <span class="org">Ly Tu Trong High School for the Gifted, Can Tho, Viet Nam</span>
+        <span class="location">July, 2018 – May, 2020</span>
+      </div>
+
+      <div class="entry-project">Project: Quadratic Equation &nbsp;<a href="https://github.com/khoaboa1/DoubleCounting">https://github.com/khoaboa1/DoubleCounting</a></div>
+      <ul class="bullets">
+        <li>Conducted in-depth research and authored a detailed study on double counting principles, exploring combinatorial methods to solve advanced problems.</li>
+        <li>Collaborated with peers and mentors to produce a comprehensive guide on double counting techniques, aimed at enhancing problem-solving skills for students specializing in mathematics.</li>
+        <li>Earned acknowledgment for contributions to mathematical problem-solving methodologies and for enriching resources available to students interested in combinatorial analysis.</li>
+      </ul>
+
+      <div class="entry-project" style="margin-top:4px;">Project: Quadratic Equation &nbsp;<a href="https://github.com/khoaboa1/QuadraticEquation">https://github.com/khoaboa1/QuadraticEquation</a></div>
+      <ul class="bullets">
+        <li>Explored biquadratic equations and root sign analysis to introduce middle school students to foundational elements of higher mathematics.</li>
+        <li>Created and solved challenging problems inspired by the International Mathematical Olympiad (IMO), providing external resources to support specialized students competing at the international level.</li>
+        <li>Acted as a project coordinator, managing schedules, assigning tasks, and ensuring timely delivery of quality educational resources by team members.</li>
+      </ul>
+
+      <div class="entry-project" style="margin-top:4px;">Project: Simson line and Steiner Line &nbsp;<a href="https://github.com/khoaboa1/SimsonSteiner">https://github.com/khoaboa1/SimsonSteiner</a></div>
+      <ul class="bullets">
+        <li>Conducted a focused study on Simson and Steiner lines, exploring their properties and practical applications in advanced geometric problem-solving.</li>
+        <li>Achieved a perfect score (100/100) in evaluations by the entire mathematics department.</li>
+        <li>Developed a new result involving Simson and Steiner lines to streamline problem-solving processes, offering faster and more optimal solutions.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- AWARDS & HONORS -->
+  <div class="section awards">
+    <div class="section-title">Awards &amp; Honors</div>
+    <ul>
+      <li><strong>University of South Florida Green and Gold Directors Waiver Award:</strong> $36.000 ($9.000 per year).</li>
+      <li><strong>Dean's List:</strong> 2021, 2023, 2024.</li>
+    </ul>
+  </div>
+
+  <!-- TEACHING EXPERIENCE -->
+  <div class="section teaching">
+    <div class="section-title">Teaching Experience</div>
+    <p><span>Tutor:</span> One-to-one classes for Calculus 3, Analysis of Algorithm and Data Structure, and Computer Architecture.</p>
+  </div>
+
+  <!-- TECHNICAL SKILLS -->
+  <div class="section skills">
+    <div class="section-title">Technical Skills</div>
+    <p><span class="label">Programming Languages:</span> C, C++, Typescript, JavaScript, HTML, CSS, C#, SQL.</p>
+    <p><span class="label">Technology:</span> ReactJS, Git, Material UI, Ant Design, Metronic, Visual Studio, PowerBI, PostgreSQL.</p>
+  </div>
+
+  <!-- SEMINARS -->
+  <div class="section seminars">
+    <div class="section-title">Seminars &amp; Events Attended</div>
+    <ul>
+      <li>Seminar: <em>"Vulnerability Discovery on Broadcom Devices with QEMU"</em>, Speaker: Christian Shane Douglas Little, Department of Computer Science and Engineering, University of South Florida, Date: October 4, 2024, Location: ENB 313.</li>
+      <li>Seminar: <em>"Lightweight Authentication Protocols and Digital Signatures for Next-Generation Internet of Things (IoT)"</em>, Speaker: Saif Eddine Nouma, Department of Computer Science and Engineering, University of South Florida, Date: November 12th, 2024, Location: ENB 313.</li>
+    </ul>
+  </div>
+
+  <!-- CERTIFICATES -->
+  <div class="section certs">
+    <div class="section-title">Certificates</div>
+    <ul>
+      <li>SQL from A to Z, LearnSQL.com, March 25, 2024.</li>
+      <li>SQL from A to Z in PostgreSQL, LearnSQL.com, June 06, 2022.</li>
+      <li>SQL for Data Analysis (in progress), LearnSQL.com, September 04, 2024.</li>
+      <li>SQL from A to Z in MySQL (in progress), LearnSQL.com, September 04, 2024.</li>
+    </ul>
+  </div>
+
+  <!-- REFERENCES -->
+  <div class="section">
+    <div class="section-title">References</div>
+
+    <div class="ref-entry">
+      <p class="name">Dr. Seung-Yeop Lee</p>
+      <p>Associate Professor &amp; Associate Chair for Graduate Affairs</p>
+      <p>Department of Mathematics &amp; Statistics, University of South Florida, 33620, Florida, USA</p>
+      <p>Phone: +1 (813) 974-6695</p>
+      <p>Email: <a href="mailto:lees3@usf.edu">lees3@usf.edu</a></p>
+    </div>
+
+    <div class="ref-entry">
+      <p class="name">Dr. Oguzhan Topsakal</p>
+      <p>Associate Professor of Instruction</p>
+      <p>Department of Computer Science and Engineering, University of South Florida, 33620, Florida, USA</p>
+      <p>Phone: +1 (813) 396-0636</p>
+      <p>Email: <a href="mailto:topsakal@usf.edu">topsakal@usf.edu</a></p>
+      <p>Website: <a href="https://topsakal.com/oguzhan/">https://topsakal.com/oguzhan/</a></p>
+    </div>
+
+    <div class="ref-entry">
+      <p class="name">Dr. Nguyen-Truc-Dao Nguyen</p>
+      <p>Tenure Track Assistant Professor</p>
+      <p>Department of Mathematics and Statistic, San Diego State University, 92182, San Diego, USA</p>
+      <p>Phone: +1 (313) 960-2362</p>
+      <p>Email: <a href="mailto:dnguyen28@sdsu.edu">dnguyen28@sdsu.edu</a></p>
+      <p>Website: <a href="https://vaolab.sdsu.edu/">https://vaolab.sdsu.edu/</a></p>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -4,25 +4,37 @@ import { motion } from 'framer-motion'
 
 const experiences = [
   {
-    role: 'Job Title',
-    company: 'Company Name',
-    period: 'Month Year – Month Year',
-    description: 'Describe what you did and what you achieved. Include quantified impact where possible.',
-    tech: ['Tech 1', 'Tech 2', 'Tech 3'],
+    role: 'Graduate Research Assistant',
+    company: 'Tulane Hydroinformatics Lab — Tulane University, New Orleans, LA',
+    period: 'March 2026 – Present',
+    bullets: [
+      'Contributing to the development of a browser-based platform for hydrological model analysis and evaluation.',
+      'Optimizing system performance and improving responsiveness through code refactoring and efficient data handling.',
+      'Designing and implementing UI/UX enhancements to improve usability across the platform.',
+    ],
+    tech: ['Next.js', 'TypeScript', 'React', 'WebR', 'WebGPU'],
   },
   {
-    role: 'Job Title',
-    company: 'Company Name',
-    period: 'Month Year – Month Year',
-    description: 'Describe what you did and what you achieved. Include quantified impact where possible.',
-    tech: ['Tech 1', 'Tech 2', 'Tech 3'],
+    role: 'Software Engineer Intern',
+    company: 'Datahouse Asia — Ho Chi Minh City, Vietnam',
+    period: 'May 2024 – August 2024',
+    bullets: [
+      "Modernized the Philippine's hospital system to improve tenant management.",
+      'Improved user interface with UI/UX design, utilizing HTML/CSS, TypeScript, and ReactJS.',
+      'Created patient-centered workflows enabling hospitals to share medical and treatment history across departments.',
+    ],
+    tech: ['ReactJS', 'TypeScript', 'HTML', 'CSS'],
   },
   {
-    role: 'Job Title',
-    company: 'Company Name',
-    period: 'Month Year – Month Year',
-    description: 'Describe what you did and what you achieved. Include quantified impact where possible.',
-    tech: ['Tech 1', 'Tech 2', 'Tech 3'],
+    role: 'R&D Research Assistant',
+    company: 'Hanoi University of Industry — Ha Noi, Vietnam',
+    period: 'September 2024 – December 2025',
+    bullets: [
+      'Assisted in migrating the flagship product from ASP.NET to ReactJS, enhancing user experience and code maintainability.',
+      'Designed and implemented an interactive drag-and-drop room layout feature to simplify dorm room assignments.',
+      'Optimized the dorm management system, increasing sign-ups by 25%.',
+    ],
+    tech: ['ReactJS', 'ASP.NET', 'Ant Design', 'Metronic'],
   },
 ]
 
@@ -52,10 +64,12 @@ export default function Resume() {
             </motion.h2>
           </div>
           <a
-            href="/resume.pdf"
+            href="/resume.html"
+            target="_blank"
+            rel="noopener noreferrer"
             className="border border-[#27272a] text-[#a1a1aa] text-xs px-5 py-2.5 hover:border-[#52525b] hover:text-[#fafafa] transition-all uppercase tracking-widest"
           >
-            Download PDF ↓
+            View Resume ↗
           </a>
         </div>
 
@@ -75,7 +89,14 @@ export default function Resume() {
               <div className="md:col-span-2">
                 <h3 className="text-[#fafafa] text-base font-medium mb-1">{exp.role}</h3>
                 <p className="text-[#a1a1aa] text-sm mb-4">{exp.company}</p>
-                <p className="text-[#71717a] text-sm leading-relaxed mb-5">{exp.description}</p>
+                <ul className="space-y-2 mb-5">
+                  {exp.bullets.map((bullet, j) => (
+                    <li key={j} className="flex gap-3 text-[#71717a] text-sm leading-relaxed">
+                      <span className="text-[#3f3f46] mt-1 flex-shrink-0">–</span>
+                      <span>{bullet}</span>
+                    </li>
+                  ))}
+                </ul>
                 <div className="flex flex-wrap gap-2">
                   {exp.tech.map((t) => (
                     <span

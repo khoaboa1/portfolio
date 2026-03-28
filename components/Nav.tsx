@@ -20,7 +20,7 @@ export default function Nav() {
       }`}
     >
       <span className="text-[#fafafa] text-sm font-medium tracking-widest uppercase">
-        Last Name First Name
+        Le Khoa
       </span>
       <div className="hidden md:flex items-center gap-8">
         {['About', 'Projects', 'Resume', 'Contact'].map((item) => (

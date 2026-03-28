@@ -3,9 +3,9 @@
 import { motion } from 'framer-motion'
 
 const links = [
-  { label: 'Email', value: 'your@email.com', href: 'mailto:your@email.com' },
-  { label: 'LinkedIn', value: 'linkedin.com/in/yourprofile', href: '#' },
-  { label: 'GitHub', value: 'github.com/yourusername', href: '#' },
+  { label: 'Email', value: 'ldkhoa03@email.com', href: 'mailto:ldkhoa03@email.com' },
+  { label: 'LinkedIn', value: 'linkedin.com/in/khoa-le-507900317', href: 'https://www.linkedin.com/in/khoa-le-507900317/' },
+  { label: 'GitHub', value: 'github.com/khoaboa1', href: 'https://github.com/khoaboa1' },
 ]
 
 export default function Contact() {

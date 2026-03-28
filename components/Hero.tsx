@@ -133,7 +133,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
           >
-            First Name<br />Last Name
+            Khoa<br />Le
           </motion.h1>
 
           <motion.p
@@ -142,7 +142,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.65 }}
           >
-            Your role or tagline goes here. Tell visitors what you build and why it matters.
+            Graduate researcher & full-stack developer building data-driven tools at the intersection of software engineering and applied science.
           </motion.p>
 
           <motion.div
@@ -158,10 +158,12 @@ export default function Hero() {
               View Projects
             </a>
             <a
-              href="#resume"
+              href="/resume.html"
+              target="_blank"
+              rel="noopener noreferrer"
               className="border border-[#27272a] text-[#fafafa] text-sm font-medium px-8 py-3 hover:border-[#52525b] transition-colors"
             >
-              Download Resume
+              View Resume
             </a>
           </motion.div>
         </div>

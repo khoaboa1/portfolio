@@ -4,22 +4,22 @@ import { motion } from 'framer-motion'
 
 const projects = [
   {
-    name: 'Project Name 1',
-    description: 'Short description of the project. What problem it solves, what you built, and what impact it had.',
-    tech: ['Tech 1', 'Tech 2', 'Tech 3'],
-    link: '#',
+    name: 'YTChatbox',
+    description: 'A Chrome extension that lets users ask natural language questions about any YouTube video. Extracts the video transcript and sends it to an AI backend to generate context-aware answers via a messenger-style chat interface.',
+    tech: ['JavaScript', 'Python', 'Flask', 'OpenAI API', 'Chrome Extension'],
+    link: 'https://github.com/khoaboa1/YTChatbox',
   },
   {
-    name: 'Project Name 2',
-    description: 'Short description of the project. What problem it solves, what you built, and what impact it had.',
-    tech: ['Tech 1', 'Tech 2', 'Tech 3'],
-    link: '#',
+    name: 'HuffmanCode',
+    description: 'A C++ implementation of the Huffman coding algorithm for lossless data compression. Builds a frequency map from input text, constructs a min-heap priority queue, and generates an optimal binary tree to encode data with reduced memory usage.',
+    tech: ['C++', 'Data Structures', 'Algorithms'],
+    link: 'https://github.com/khoaboa1/HuffmanCode',
   },
   {
-    name: 'Project Name 3',
-    description: 'Short description of the project. What problem it solves, what you built, and what impact it had.',
-    tech: ['Tech 1', 'Tech 2', 'Tech 3'],
-    link: '#',
+    name: 'NotationConverter',
+    description: 'A C++ program that converts mathematical expressions between infix, prefix, and postfix notations. Implements a custom doubly linked list data structure to handle the conversion logic.',
+    tech: ['C++', 'Doubly Linked List', 'Data Structures'],
+    link: 'https://github.com/khoaboa1/NotationConverter',
   },
 ]
 

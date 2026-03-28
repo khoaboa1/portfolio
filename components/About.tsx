@@ -3,10 +3,10 @@
 import { motion } from 'framer-motion'
 
 const skills: Record<string, string[]> = {
-  Languages: ['Language 1', 'Language 2', 'Language 3'],
-  Frontend: ['Framework 1', 'Framework 2', 'Framework 3'],
-  'Backend & Data': ['Tool 1', 'Tool 2', 'Tool 3'],
-  'DevOps & Other': ['Tool 1', 'Tool 2', 'Tool 3'],
+  Languages: ['C++', 'JavaScript', 'C#'],
+  Frontend: ['React', 'Angular'],
+  'Backend & Data': ['Node.js', 'Python', 'SQL'],
+  'DevOps & Other': ['Docker', 'Git'],
 }
 
 export default function About() {
@@ -38,7 +38,7 @@ export default function About() {
             <div>
               <p className="text-[#52525b] text-xs uppercase tracking-widest mb-3">Bio</p>
               <p className="text-[#a1a1aa] text-sm leading-relaxed">
-                Add your personal bio here. Describe your background, interests, and what drives you professionally.
+                I'm a Computer Science graduate student at Tulane University with a background in full-stack development and a growing focus on research at the intersection of software and applied science. I enjoy building tools that are both technically sound and genuinely useful. Outside of work, you'll find me in the kitchen experimenting with new recipes, or out on a trail hiking.
               </p>
             </div>
 
@@ -46,13 +46,13 @@ export default function About() {
               <p className="text-[#52525b] text-xs uppercase tracking-widest mb-5">Education</p>
               <div className="space-y-5">
                 <div className="border-l border-[#27272a] pl-5">
-                  <p className="text-[#fafafa] text-sm font-medium">Degree, Major</p>
-                  <p className="text-[#a1a1aa] text-xs mt-1">University Name — Year</p>
-                  <p className="text-[#52525b] text-xs mt-0.5">GPA: X.XX</p>
+                  <p className="text-[#fafafa] text-sm font-medium">Bachelor, Computer Science</p>
+                  <p className="text-[#a1a1aa] text-xs mt-1">University of South Florida — 2025</p>
+                  <p className="text-[#52525b] text-xs mt-0.5">GPA: 3.8</p>
                 </div>
                 <div className="border-l border-[#27272a] pl-5">
-                  <p className="text-[#fafafa] text-sm font-medium">Degree, Major</p>
-                  <p className="text-[#a1a1aa] text-xs mt-1">University Name — Year</p>
+                  <p className="text-[#fafafa] text-sm font-medium">Master, Computer Science</p>
+                  <p className="text-[#a1a1aa] text-xs mt-1">Tulane University — May 2026 (Currently)</p>
                   <p className="text-[#52525b] text-xs mt-0.5">GPA: X.XX</p>
                 </div>
               </div>
@@ -60,7 +60,7 @@ export default function About() {
 
             <div>
               <p className="text-[#52525b] text-xs uppercase tracking-widest mb-2">Location</p>
-              <p className="text-[#a1a1aa] text-sm">City, State</p>
+              <p className="text-[#a1a1aa] text-sm">New Orleans, Louisiana</p>
             </div>
           </div>
 

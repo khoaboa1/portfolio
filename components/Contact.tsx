@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 
 const links = [
-  { label: 'Email', value: 'ldkhoa03@email.com', href: 'mailto:ldkhoa03@email.com' },
+  { label: 'Email', value: 'ldkhoa03@gmail.com', href: 'mailto:ldkhoa03@email.com' },
   { label: 'LinkedIn', value: 'linkedin.com/in/khoa-le-507900317', href: 'https://www.linkedin.com/in/khoa-le-507900317/' },
   { label: 'GitHub', value: 'github.com/khoaboa1', href: 'https://github.com/khoaboa1' },
 ]
